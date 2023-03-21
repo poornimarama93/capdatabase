@@ -1,0 +1,6 @@
+applications:
+- name: bookstore
+  path: srv/target/products-service-exec.jar
+  random-route: true
+  services:
+  - helloworld-db
